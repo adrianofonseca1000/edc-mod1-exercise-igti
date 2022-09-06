@@ -1,0 +1,9 @@
+data/MICRODADOS_ENEM_2020.csv
+interact_s3.py
+*.csv
+*.tf
+interact_s3.py
+terraform.tfstate.backup
+terraform.tfstate
+.terraform.lock.hcl
+terraform-provider-aws_v4.29.0_x5.exe
