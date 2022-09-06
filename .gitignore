@@ -1,6 +1,7 @@
+main.tf
+variables_old.tf
 *.csv
 interact_s3.py
-*.tf
 interact_s3.py
 terraform.tfstate.backup
 terraform.tfstate
