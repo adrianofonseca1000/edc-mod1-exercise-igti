@@ -1,4 +1,4 @@
-data/MICRODADOS_ENEM_2020.csv
+*.csv
 interact_s3.py
 *.csv
 *.tf
