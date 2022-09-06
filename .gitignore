@@ -1,6 +1,5 @@
 *.csv
 interact_s3.py
-*.csv
 *.tf
 interact_s3.py
 terraform.tfstate.backup
