@@ -24,7 +24,7 @@ resource "aws_s3_object" "zona_consumo" {
 
 resource "aws_s3_object" "script_glue" {
     bucket = aws_s3_bucket.datalake.id
-    key    = "glue-scripts/"
+    key    = "glue-script/job_spark_from_tf.py"
     acl    = "private"
     source = "../job_spark_glue.py"
     etag   = filemd5("../job_spark_glue.py")
