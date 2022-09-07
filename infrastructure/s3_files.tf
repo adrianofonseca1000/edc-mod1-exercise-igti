@@ -6,7 +6,7 @@ resource "aws_s3_object" "codigo_spark" {
   etag   = filemd5("../job_spark_emr.py")
 }
 
-resource "aws_s3_bucket_object" "script_athena" {
+resource "aws_s3_object" "script_athena" {
     bucket = aws_s3_bucket.datalake.id
     key    = "athena-results/"
     acl    = "private"
@@ -14,7 +14,7 @@ resource "aws_s3_bucket_object" "script_athena" {
     etag   = filemd5("../.gitkeep")
 }
 
-resource "aws_s3_bucket_object" "zona_consumo" {
+resource "aws_s3_object" "zona_consumo" {
     bucket = aws_s3_bucket.datalake.id
     key    = "consumer-zone/"
     acl    = "private"
@@ -22,7 +22,7 @@ resource "aws_s3_bucket_object" "zona_consumo" {
     etag   = filemd5("../.gitkeep")
 }
 
-resource "aws_s3_bucket_object" "script_glue" {
+resource "aws_s3_object" "script_glue" {
     bucket = aws_s3_bucket.datalake.id
     key    = "glue-scripts/"
     acl    = "private"
@@ -30,7 +30,7 @@ resource "aws_s3_bucket_object" "script_glue" {
     etag   = filemd5("../job_spark_glue.py")
 }
 
-resource "aws_s3_bucket_object" "dado_nao_tratado" {
+resource "aws_s3_object" "dado_nao_tratado" {
     bucket = aws_s3_bucket.datalake.id
     key    = "raw-data/"
     acl    = "private"
