@@ -1,1 +1,1 @@
-# edc-mod1-exercise-igti
+# EDC Modulo 1 Code IGTI
