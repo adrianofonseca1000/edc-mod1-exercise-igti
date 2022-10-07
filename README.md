@@ -2,6 +2,10 @@
 
 # Bootcamp: Engenheiro(a) de Dados Cloud
 
+[![Test on PR](https://github.com/adrianofonseca1000/edc-mod1-iac-code-enem2020-aws/actions/workflows/teste.yaml/badge.svg)](https://github.com/adrianofonseca1000/edc-mod1-iac-code-enem2020-aws/actions/workflows/teste.yaml)
+
+[![Deploy](https://github.com/adrianofonseca1000/edc-mod1-iac-code-enem2020-aws/actions/workflows/deploy.yaml/badge.svg)](https://github.com/adrianofonseca1000/edc-mod1-iac-code-enem2020-aws/actions/workflows/deploy.yaml)
+
 - Trabalho Prático
 
 - Módulo 1: Fundamentos em Arquitetura de Dados e Soluções em Nuvem
